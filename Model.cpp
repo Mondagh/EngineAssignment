@@ -1,9 +1,9 @@
 #include "Model.h"
 #include "Application.h"
-#include "ModuleTexture.h"
+#include "Modules/ModuleTexture.h"
 #include "Mesh.h"
-#include "ModuleDebugDraw.h"
-#include "ModuleCamera.h"
+#include "Modules/ModuleDebugDraw.h"
+#include "Modules/ModuleCamera.h"
 #include "Globals.h"
 
 #include <assimp/mesh.h>

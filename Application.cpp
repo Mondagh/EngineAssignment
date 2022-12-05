@@ -1,14 +1,14 @@
 #pragma once
 #include "Application.h"
-#include "ModuleWindow.h"
-#include "ModuleRender.h"
-#include "ModuleInput.h"
-#include "ModuleProgram.h"
-#include "ModuleRenderExercise.h"
-#include "ModuleEngine.h"
-#include "ModuleDebugDraw.h"
-#include "ModuleCamera.h"
-#include "ModuleTexture.h"
+#include "Modules/ModuleWindow.h"
+#include "Modules/ModuleRender.h"
+#include "Modules/ModuleInput.h"
+#include "Modules/ModuleProgram.h"
+#include "Modules/ModuleRenderExercise.h"
+#include "Modules/ModuleEngine.h"
+#include "Modules/ModuleDebugDraw.h"
+#include "Modules/ModuleCamera.h"
+#include "Modules/ModuleTexture.h"
 
 using namespace std;
 

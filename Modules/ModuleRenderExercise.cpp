@@ -1,6 +1,6 @@
 ﻿#include "ModuleRenderExercise.h"
-#include "Globals.h"
-#include "Application.h"
+#include "../Globals.h"
+#include "../Application.h"
 #include "ModuleWindow.h"
 #include "SDL.h"
 #include "GL/glew.h"

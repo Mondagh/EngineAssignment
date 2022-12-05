@@ -1,13 +1,13 @@
 #include "ModuleEngine.h"
 #include "ModuleWindow.h"
-#include "Application.h"
+#include "../Application.h"
 #include "ModuleRender.h"
 #include "ModuleCamera.h"
 #include "ModuleTexture.h"
 
-#include "ImGui/imgui.h"
-#include "ImGui/imgui_impl_sdl.h"
-#include "ImGui/imgui_impl_opengl3.h"
+#include "../ImGui/imgui.h"
+#include "../ImGui/imgui_impl_sdl.h"
+#include "../ImGui/imgui_impl_opengl3.h"
 #include "GL/glew.h"
 #include <stdio.h>
 #include <SDL.h>

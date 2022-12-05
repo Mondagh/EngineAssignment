@@ -1,6 +1,6 @@
 #pragma once
 #include "Module.h"
-#include "Globals.h"
+#include "../Globals.h"
 #include "Math/float4x4.h"
 
 struct SDL_Texture;

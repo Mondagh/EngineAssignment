@@ -1,7 +1,7 @@
 #pragma once
 #include "Module.h"
-#include "Globals.h"
-#include "SDL/include/SDL.h"
+#include "../Globals.h"
+#include "../SDL/include/SDL.h"
 
 struct SDL_Texture;
 struct SDL_Renderer;

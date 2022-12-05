@@ -1,7 +1,7 @@
 #include "ModuleProgram.h"
-#include "Globals.h"
+#include "../Globals.h"
 #include "ModuleDebugDraw.h"
-#include "Application.h"
+#include "../Application.h"
 #include "ModuleCamera.h"
 #include "ModuleTexture.h"
 
@@ -10,7 +10,7 @@
 #include "Geometry/Frustum.h"
 #include "Math/float3x3.h"
 #include "Math/float3.h"
-#include "DebugDraw.h"
+#include "../DebugDraw.h"
 
 using namespace std;
 

@@ -2,7 +2,7 @@
 
 #include<list>
 #include "Globals.h"
-#include "Module.h"
+#include "Modules/Module.h"
 
 class ModuleRender;
 class ModuleWindow;

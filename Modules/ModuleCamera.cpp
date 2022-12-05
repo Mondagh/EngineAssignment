@@ -1,6 +1,6 @@
-#include "Globals.h"
+#include "../Globals.h"
 #include "ModuleCamera.h"
-#include "Application.h"
+#include "../Application.h"
 #include "ModuleInput.h"
 #include "ModuleProgram.h"
 
@@ -10,7 +10,7 @@
 #include "Geometry/Frustum.h"
 #include "Math/float3x3.h"
 #include "Math/float3.h"
-#include "SDL/include/SDL.h"
+#include "../SDL/include/SDL.h"
 
 
 typedef unsigned __int8 Uint8;

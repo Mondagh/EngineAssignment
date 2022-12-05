@@ -1,10 +1,10 @@
 #include "Mesh.h"
 #include "Application.h"
-#include "ModuleTexture.h"
-#include "ModuleCamera.h"
-#include "ModuleRender.h"
-#include "ModuleRenderExercise.h"
-#include "ModuleProgram.h"
+#include "Modules/ModuleTexture.h"
+#include "Modules/ModuleCamera.h"
+#include "Modules/ModuleRender.h"
+#include "Modules/ModuleRenderExercise.h"
+#include "Modules/ModuleProgram.h"
 
 
 #include <Assimp/mesh.h>
