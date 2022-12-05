@@ -15,8 +15,8 @@ enum update_status
 
 // Configuration -----------
 #define DEGTORAD 0.01745329251f
-#define SCREEN_WIDTH 640
-#define SCREEN_HEIGHT 480
+#define SCREEN_WIDTH 1280
+#define SCREEN_HEIGHT 960
 #define FULLSCREEN false
 #define BORDERLESS false
 #define RESIZABLE true

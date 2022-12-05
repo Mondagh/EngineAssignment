@@ -58,15 +58,17 @@ update_status ModuleCamera::Update()
 	if (keyboard[SDL_SCANCODE_LSHIFT]) {
 		camaraVel = velocity * 2.0f;
 	}
+	if (mouseButtonPress == SDL_BUTTON_LEFT)
+	{
+		if (keyboard[SDL_SCANCODE_LALT]) {
 
-	if (keyboard[SDL_SCANCODE_LALT]) {
-		
-		vec oldFocus = GetFrustum()->Pos() + GetFrustum()->Front().Normalized() * GetFrustum()->Pos().Length();
-		float4x4 model = App->program->model;
-		Rotate(float3x3::RotateAxisAngle(GetFrustum()->WorldRight().Normalized(), -model.y * 0.1));
-		Rotate(float3x3::RotateY(-model.x * 0.1 ));
-		vec newFocus = GetFrustum()->Pos() + GetFrustum()->Front().Normalized() * GetFrustum()->Pos().Length();
-		Translate(oldFocus - newFocus);
+			vec oldFocus = GetFrustum()->Pos() + GetFrustum()->Front().Normalized() * GetFrustum()->Pos().Length();
+			float4x4 model = App->program->model;
+			Rotate(float3x3::RotateAxisAngle(GetFrustum()->WorldRight().Normalized(), -model.y * 0.1));
+			Rotate(float3x3::RotateY(-model.x * 0.1));
+			vec newFocus = GetFrustum()->Pos() + GetFrustum()->Front().Normalized() * GetFrustum()->Pos().Length();
+			Translate(oldFocus - newFocus);
+		}
 	}
 
 	if (mouseButtonPress == SDL_BUTTON_RIGHT)
