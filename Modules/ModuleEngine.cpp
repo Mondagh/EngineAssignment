@@ -83,13 +83,6 @@ update_status ModuleEngine::PreUpdate()
 
 update_status ModuleEngine::Update()
 {
-
-
-	static float f = 0.0f;
-	static int counter = 0;
-	static ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
-	static bool showLibraries = true;
-
 	ImGui::BeginMainMenuBar();
 	if (ImGui::BeginMenu("Menu")) {
 		if (ImGui::MenuItem("Quit")) {
@@ -120,21 +113,10 @@ update_status ModuleEngine::Update()
 		ImGui::EndMenu();
 	}
 
-	
 
 	ImGui::EndMainMenuBar();
 
-
-
-
-
-
-
-
-
-
 	ImGui::Begin("GameObject");
-
 
 	float3 pos = App->camera->GetFrustum()->Pos();
 
@@ -173,30 +155,6 @@ update_status ModuleEngine::Update()
 	ImGui::Text( "%d", numIndices / 3);
 
 	ImGui::End();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
